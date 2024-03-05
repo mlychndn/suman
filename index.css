@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  display: flex;
+  padding: 15px;
+  width: 840px;
+  height: 840px;
+  background-color: #900505;
+  margin: 0 auto;
+  z-index: -1;
+  padding: 3px;
+  font-family: "Madimi One", sans-serif;
+  gap: 30px;
+  border-radius: 10px;
+}
+
+.profile {
+  width: 250px;
+  height: 820px;
+  background-color: #fff;
+  margin: 10px 20px;
+  border-radius: 10px;
+}
+
+.profile-header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.ganesh {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.pooja {
+  width: 100px;
+  height: 100px;
+  /* transform: rotate(30deg); */
+}
+
+.profile-img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin: 15px 40px;
+}
+
+.expectations {
+  margin-top: 15px;
+  margin-bottom: 3px;
+  color: #861d17;
+}
+.title {
+  padding: 5px;
+  color: #38bc1c;
+}
+
+.bullets {
+  margin-left: 29px;
+  color: #861d17;
+}
+
+.content {
+  margin: 5px;
+}
+.content-text {
+  font-size: 18px;
+}
+
+.secondary {
+  width: 500px;
+  color: #fff;
+}
+
+.header {
+  padding: 12px;
+  margin: 4px;
+  font-family: "Oleo Script", system-ui;
+  font-size: 32px;
+  color: #fff;
+}
+
+.bio > ul {
+  margin: 0px;
+  font-size: 18px;
+  list-style-type: none;
+  line-height: 32px;
+}
+
+.qualifiaction {
+  display: grid;
+  border: 2px solid #fff;
+  grid-template-columns: auto auto auto;
+  margin-top: 30px;
+  height: 200px;
+}
+
+.grid-item {
+  border: 1px solid white;
+  padding: 3px;
+}
+
+.namah {
+  margin-top: 12px;
+  width: 480px;
+  height: 130px;
+  border-radius: 15%;
+}
+
+.footer {
+  margin-top: 15px;
+  width: 500px;
+  height: 30px;
+  border-radius: 10px;
+}
